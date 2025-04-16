@@ -27,7 +27,7 @@ public class MainBobDRun extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// 1. 파라미터 가져오기
-        String userName = request.getParameter("userName");
+		String userName = request.getParameter("userName");
 
         // 2. 응답 Content-Type 설정
         response.setContentType("text/html; charset=UTF-8");
